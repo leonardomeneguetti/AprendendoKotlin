@@ -15,6 +15,7 @@ fun main() {
     println(age::class)
     println(price::class)
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Tipos primitivos
     //Inteiros
     val byte: Byte = 127 //8 bit (1 Byte)
@@ -34,6 +35,7 @@ fun main() {
     //Boolean
     val boolean: Boolean = true //1 Byte
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Conversão de tipo
     //Int pra Duble
     val preco: Int = 22
@@ -43,6 +45,7 @@ fun main() {
     val idade: Double = 22.1
     println(idade.toInt())
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Caracteres especiais (não são mostrados durante um println() e tem funções específicas
     //"\n" = pula linha
     //"\t" = dar um tab
@@ -51,6 +54,7 @@ fun main() {
     println(name.length) //string.length no Kotlin não é uma função, mas sim uma propriedade da classe String
     println(name.uppercase()) //string.uppercase() e string.lowercase() são funções da classe String
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Formatação de texto
     //1. Caaracteres especiais
     var msg: String = "Olá Leonardo, \nSeu produto chegou"
@@ -69,6 +73,7 @@ fun main() {
     val produt = "PlayStatio 5"
     println("Olá ${nome+sobrenome}, seu $produt chegou") //== println("Olá " + (nome + sobrenome) + ", seu " + produto + " chegou")
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Conddições
     val produts = "iPhone"
 
@@ -82,6 +87,7 @@ fun main() {
         println("Produto cadastrado")
     }
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     //Tratando Null
     //No Kotlin, se apenas declararmos uma variavel normalmente, essa variável não pode receber o valor null
     //Para que uma variável possa receber o null, temos que declarar isso explicitamente
@@ -101,7 +107,8 @@ fun main() {
 
     println(soma())
 }
-
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//Funções
 //Funções sem retorno em Kotlin funcionam exatamente como em java, mas com "fun" no começo e sem "void" antes do nome
 fun olaMundo() {
     println("Olá mundo")
