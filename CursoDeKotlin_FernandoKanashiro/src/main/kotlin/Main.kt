@@ -11,6 +11,7 @@ import kotlin.system.measureNanoTime
 
 fun main(){
     //Apenas irei anotar o que não foi trabalhado no curso do outro professor
+    //Anotações feitas assistindo as aulas do professor Fernando Kanashiro: https://www.youtube.com/c/FernandoKanashiroProgramação
 
     //Tipo de dados
     //Decimais
